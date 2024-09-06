@@ -1,7 +1,7 @@
 name: ADR - Architecture Decision Record
 description: Erstellen eines Architektur-Entscheidungsdokuments.
 title: "ADR: "
-labels: ["ADR"]
+labels: ["adr"]
 projects: Urban-Innovation/14
 assignees: ["SistigCh"]
 
