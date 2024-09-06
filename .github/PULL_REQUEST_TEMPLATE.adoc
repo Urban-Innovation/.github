@@ -1,0 +1,36 @@
+= Pull Request Vorlage
+
+== Beschreibung
+Beschreibe die Änderungen im Detail. Füge den Kontext und die Motivation hinter dieser Änderung hinzu und erkläre, warum sie notwendig ist.
+
+== Art der Änderung
+* [ ] Fehlerbehebung (nicht-breaking Änderung, die ein Problem behebt)
+* [ ] Neues Feature (nicht-breaking Änderung, die Funktionalität hinzufügt)
+* [ ] Breaking Change (Änderung, die bestehende Funktionalität beeinflusst)
+* [ ] Dokumentationsupdate
+* [ ] Refactoring
+
+== Zugehörige(r) Issue(s)
+- Schließt #ISSUE_NUMMER
+- Verwandt mit #ISSUE_NUMMER
+
+== Checkliste
+
+=== Codequalität
+* [ ] Der Code kompiliert und alle Tests werden bestanden.
+* [ ] Ich habe `lint` ausgeführt und alle Probleme behoben.
+* [ ] Ich habe den Code-Stil und die Richtlinien des Projekts befolgt.
+* [ ] Ich habe die Dokumentation nach Bedarf aktualisiert.
+
+=== Testen (TDD)
+* [ ] Ich habe Tests hinzugefügt, die meine Korrektur beweisen oder dass mein Feature funktioniert.
+* [ ] Ich habe Unit-Tests für neue Funktionen geschrieben.
+* [ ] Ich habe Randfälle in meinen Testfällen berücksichtigt.
+* [ ] Ich habe überprüft, dass die Testabdeckung den erforderlichen Schwellenwert erfüllt.
+
+
+== Bereitstellung
+Besondere Überlegungen zur Bereitstellung, z.B. Datenbankmigrationen, Umgebungsvariablen.
+
+* [ ] Bereitstellungs-Checkliste ist abgeschlossen.
+* [ ] Neue Umgebungsvariablen sind dokumentiert und kommuniziert.

@@ -1,0 +1,80 @@
+
+= Übersicht über das .github Repository
+:icons: font
+Das `.github` Repository wird verwendet, um zentrale Konfigurationsdateien und Vorlagen für alle Repositories innerhalb einer Organisation oder eines Benutzerkontos zu speichern. Dies stellt sicher, dass konsistente Richtlinien und Workflows über alle Projekte hinweg angewendet werden.
+
+== Issue Templates
+
+Es enthält mehrere vordefinierte Issue-Templates, um die Meldung von Issues zu standardisieren und den Beitragsprozess zu optimieren. Die verfügbaren Templates sind:
+
+- **link:.github/ISSUE_TEMPLATE/1-bug_report.yml[Bug Report]**: Zum Melden von Fehlern und Problemen.
+- **link:.github/ISSUE_TEMPLATE/2-security_report.yml[Security Report]**: Zum Melden von Sicherheitslücken.
+- **link:.github/ISSUE_TEMPLATE/3-new_feature.yml[New Feature]**: Zum Vorschlagen neuer Funktionen.
+- **link:.github/ISSUE_TEMPLATE/4-user_story.yml[User Story]**: Zum Beschreiben von User Stories in der agilen Entwicklung.
+- **link:.github/ISSUE_TEMPLATE/5-adr.yml[ADR]**: Zum Dokumentieren von Architekturentscheidungen.
+- **link:.github/ISSUE_TEMPLATE/6-improvement.yml[improvement.yml]**: Zum Vorschlagen von Verbesserungen bestehender Funktionen oder Dokumentationen. 
+
+=== Verzeichnisstruktur
+
+Die Issue-Templates sind im Verzeichnis `ISSUE_TEMPLATE` organisiert:
+
+```
+.github/
+├── ISSUE_TEMPLATE/
+│   ├── 1-bug_report.yml
+│   ├── 2-security_report.yml
+│   ├── 3-new_feature.yml
+│   ├── 4-user_story.yml
+│   ├── 5-adr.yml
+│   ├── 6-improvement.yml
+│   └── config.yml
+```
+
+[IMPORTANT] 
+.Ansichtsreihenfolge der Templates
+==== 
+Die Ansichtsreihenfolge der Issue-Templates wird durch die Nummerierung der Dateinamen bestimmt.
+====
+
+=== Konfigurationsdatei (link:.github/ISSUE_TEMPLATE/config.yml[config.yml])
+
+Die Konfigurationsdatei enthält Einstellungen für die Issue-Templates.
+
+[,yml]
+----
+include::.github/ISSUE_TEMPLATE/config.yml[config.yml]
+----
+
+blank_issues_enabled:: Erstellung von Issues ohne Templates erlauben.
+
+=== Überschreiben von Issue-Templates
+
+Um ein Issue-Template zu überschreiben, muss eine Datei mit dem gleichen Namen im Repository erstellt werden. Diese Datei wird dann anstelle des Standard-Templates verwendet.
+
+Beispiel:
+Um das Standard-Template für Bug Reports zu überschreiben, erstellen Sie eine Datei mit dem Namen `1-bug_report.yml` im `.github/ISSUE_TEMPLATE` Verzeichnis Ihres Repositories. In dieser Datei können Sie dann das angepasste Template definieren.
+
+Die Verzeichnisstruktur nach dem Überschreiben eines Templates könnte wie folgt aussehen:
+
+```
+.github/
+├── ISSUE_TEMPLATE/
+│   ├── 1-bug_report.yml
+```
+
+[IMPORTANT] 
+.ADR-Template
+==== 
+Dieses Template ist für die Dokumentation von Architekturentscheidungen (Architectural Decision Records) vorgesehen. 
+Es soll nicht überschrieben werden, da es spezielle Anforderungen erfüllt.
+====
+
+=== Pull Request Template (link:.github/PULL_REQUEST_TEMPLATE.adoc[Pull Request Template])
+
+Die Vorlage für Pull Requests. Sie enthält eine Checkliste und eine Beschreibung, die beim Erstellen eines Pull Requests ausgefüllt werden müssen. 
+
+[NOTE] 
+.Pull Request Template
+==== 
+Es kann auch ein benutzerdefiniertes Pull Request Template erstellt werden, indem eine Datei mit dem Namen `PULL_REQUEST_TEMPLATE.adoc` im `.github` Verzeichnis des Repositories erstellt wird. Es kann dann die gleiche Syntax wie in der Standardvorlage verwendet werden. Es wird empfohlen, die Standardvorlage als Ausgangspunkt zu verwenden und sie bei Bedarf anzupassen. Es
+====
