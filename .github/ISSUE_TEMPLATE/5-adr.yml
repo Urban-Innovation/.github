@@ -2,7 +2,7 @@ name: ADR - Architecture Decision Record
 description: Erstellen eines Architektur-Entscheidungsdokuments.
 title: "ADR: "
 labels: ["ADR"]
-projects: ["Urban-Innovation/Architekturboard"]
+projects: Urban-Innovation/14
 assignees: ["SistigCh"]
 
 
@@ -75,4 +75,4 @@ body:
   - type: markdown
     attributes:
       value: |
-              "```[tasklist] \n\n ###Tasks \n\n- [ ] Draft task \n\n ###Review \n\n- [ ] Review task \n\n ###Approval \n\n- [ ] Approve task \n\n```"
+        ```[tasklist] \n\n ###Tasks \n\n- [ ] Draft task \n\n ###Review \n\n- [ ] Review task \n\n ###Approval \n\n- [ ] Approve task \n\n```
