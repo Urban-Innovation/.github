@@ -1,0 +1,45 @@
+name: User Story
+description: Verwenden Sie diese Vorlage, um eine neue Benutzerstory zu erstellen.
+title: "[Benutzerstory]: "
+labels: ["Feature"]
+# projects: 
+# assignees: 
+
+body:
+  - type: textarea
+    id: desired-feature
+    attributes:
+      label: Gewünschtes Feature
+      description: "Bitte füllen Sie die folgenden Abschnitte aus, um uns Ihre neue Benutzerstory zu erklären."
+      placeholder: "Als..."
+      value: "Als [Rolle], \n\nmöchte ich [Feature] \n\ndamit [Vorteil].\n\n"
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Akzeptanzkriterien
+      description: "Listen Sie die Anforderungen auf, die erfüllt sein müssen, damit diese Story als abgeschlossen betrachtet wird."
+      placeholder: "1. ...\n2. ...\n3. ..."
+      value: "1. ...\n2. ...\n3. ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason-benefit
+    attributes:
+      label: Grund/Nutzen
+      description: "Warum möchten Sie dieses Feature? Was ist der Nutzen?"
+      placeholder: "Damit..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Zusätzliche Notizen
+      description: "Fügen Sie hier weitere Informationen oder Screenshots zur Feature-Anfrage hinzu."
+      placeholder: "Notizen hinzufügen..."
+    validations:
+      required: false

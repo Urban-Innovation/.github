@@ -1,0 +1,78 @@
+name: ADR - Architecture Decision Record
+description: Erstellen eines Architektur-Entscheidungsdokuments.
+title: "ADR: "
+labels: ["ADR"]
+projects: ["Architekturboard"]
+assignees: ["SistigCh"]
+
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Architektur-Entscheidungsdokument (ADR)
+        Bitte füllen Sie die folgenden Abschnitte aus, um eine Architektur-Entscheidung zu dokumentieren.
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      description: "Der aktuelle Status dieser Entscheidung."
+      options:
+        - Vorgeschlagen
+        - Akzeptiert
+        - Veraltet
+        - Überholt
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Titel
+      description: Ein kurzer, beschreibender Titel für diese Architektur-Entscheidung.
+      placeholder: "z.B. Verwendung von PostgreSQL als primäre Datenbank"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Kontext
+      description: "Das Problem, mit dem wir konfrontiert sind, und der Kontext, in dem es auftritt."
+      placeholder: "Beschreiben Sie das Problem und seinen Kontext..."
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Entscheidung
+      description: "Die getroffene Entscheidung."
+      placeholder: "Beschreiben Sie die Entscheidung..."
+    validations:
+      required: true
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Konsequenzen
+      description: "Die Konsequenzen dieser Entscheidung, einschließlich Vor- und Nachteilen."
+      placeholder: "Beschreiben Sie die Konsequenzen..."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: In Betracht gezogene Alternativen
+      description: "Alle alternativen Lösungen/Optionen, die in Betracht gezogen, aber nicht ausgewählt wurden."
+      placeholder: "Beschreiben Sie alle in Betracht gezogenen Alternativen..."
+    validations:
+      required: false
+  - type: textarea
+    id: related-adrs
+    attributes:
+      label: Verwandte ADRs
+      description: "Liste aller verwandten ADRs oder Dokumente."
+      placeholder: "z.B. ADR-001: Verwendung der Microservices-Architektur"
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+              "```[tasklist] \n\n ###Tasks \n\n- [ ] Draft task \n\n ###Review \n\n- [ ] Review task \n\n ###Approval \n\n- [ ] Approve task \n\n```"
