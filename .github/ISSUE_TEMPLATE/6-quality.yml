@@ -1,5 +1,5 @@
 name: Quality Improvement
-description: Erstellen Sie eine Verbesserungsanfrage.
+description: Improve code maintainability, performance, tooling
 title: "[Quality]: "
 type: 'Quality'
 # projects:

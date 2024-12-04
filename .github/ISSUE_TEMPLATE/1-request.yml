@@ -1,5 +1,5 @@
 name: New Request
-description: A proposals, support requests, or other stakeholder needs requiring evaluation or action.
+description: A proposals, support requests, or other stakeholder needs requiring evaluation or action
 title: "[Request]: "
 type: 'Request'
 # projects:
