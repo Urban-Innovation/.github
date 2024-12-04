@@ -1,7 +1,7 @@
 name: ADR - Architecture Decision Record
 description: Erstellen eines Architektur-Entscheidungsdokuments.
-title: "ADR: "
-labels: ["adr"]
+title: "[ADR]: "
+type: 'ADR'
 projects: Urban-Innovation/14
 assignees: ["SistigCh"]
 
@@ -12,6 +12,7 @@ body:
       value: |
         ## Architektur-Entscheidungsdokument (ADR)
         Bitte füllen Sie die folgenden Abschnitte aus, um eine Architektur-Entscheidung zu dokumentieren.
+
   - type: dropdown
     id: status
     attributes:
@@ -24,14 +25,7 @@ body:
         - Überholt
     validations:
       required: true
-  - type: input
-    id: title
-    attributes:
-      label: Titel
-      description: Ein kurzer, beschreibender Titel für diese Architektur-Entscheidung.
-      placeholder: "z.B. Verwendung von PostgreSQL als primäre Datenbank"
-    validations:
-      required: true
+
   - type: textarea
     id: context
     attributes:

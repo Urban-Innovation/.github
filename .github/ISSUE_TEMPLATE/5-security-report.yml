@@ -1,0 +1,32 @@
+name: Security Bug Report
+description: A security issue that needs to be resolved quickly.
+title: "[Security Issue]: "
+type: 'Security Issue'
+
+body:
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Beschreibung des Sicherheitsproblems
+      description: Eine detaillierte Beschreibung des Sicherheitsproblems.
+      placeholder: "Bitte beschreiben Sie das Sicherheitsproblem hier..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Schritte zur Reproduktion
+      description: Detaillierte Schritte, um das Sicherheitsproblem zu reproduzieren.
+      placeholder: "Bitte beschreiben Sie die Schritte hier..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Zusätzliche Anmerkungen
+      description: Weitere relevante Informationen oder Anmerkungen.
+      placeholder: "Weitere Informationen hier eingeben..."
+    validations:
+      required: false
