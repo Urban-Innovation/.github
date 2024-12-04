@@ -1,0 +1,24 @@
+name: New Request
+description: A proposals, support requests, or other stakeholder needs requiring evaluation or action.
+title: "[Request]: "
+type: 'Request'
+# projects:
+# assignees:
+body:
+  - type: input
+    id: customer_name
+    attributes:
+      label: Name des Kunden
+      description: Der Name des Kunden, der die Anforderung stellt.
+      placeholder: "z.B. Max Mustermann"
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirement_description
+    attributes:
+      label: Beschreibung der Anforderung
+      description: Eine detaillierte Beschreibung der Anforderung.
+      placeholder: "Bitte beschreiben Sie Ihre Anforderung hier..."
+    validations:
+      required: true

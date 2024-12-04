@@ -1,0 +1,40 @@
+name: Quality Improvement
+description: Erstellen Sie eine Verbesserungsanfrage.
+title: "[Quality]: "
+type: 'Quality'
+# projects:
+# assignees:
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Quality Improvement
+        Bitte füllen Sie die folgenden Felder aus, um die Qualitätsverbesserung zu beschreiben.
+
+  - type: textarea
+    id: improvement_description
+    attributes:
+      label: Beschreibung der Verbesserung
+      description: Eine detaillierte Beschreibung der vorgeschlagenen Verbesserung.
+      placeholder: "Bitte beschreiben Sie die Verbesserung hier..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_benefits
+    attributes:
+      label: Erwartete Vorteile
+      description: Die erwarteten Vorteile der Verbesserung.
+      placeholder: "Bitte beschreiben Sie die erwarteten Vorteile hier..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Zusätzliche Anmerkungen
+      description: Weitere relevante Informationen oder Anmerkungen.
+      placeholder: "Weitere Informationen hier eingeben..."
+    validations:
+      required: false

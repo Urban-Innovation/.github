@@ -1,0 +1,26 @@
+name: Task
+description: Task to be completed.
+title: "[Task]: "
+type: 'Task'
+# projects:
+# assignees:
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Zusätzliche Notizen
+      description: "Beschreibung der Aufgabe"
+      placeholder: "Beschreiben Sie die Aufgabe..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Akzeptanzkriterien
+      description: "Listen Sie die Anforderungen auf, die erfüllt sein müssen, damit diese Story als abgeschlossen betrachtet wird."
+      placeholder: "- [ ] ...\n- [ ] ...\n- [ ] ..."
+      value: "- [ ] ..."
+    validations:
+      required: true

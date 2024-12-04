@@ -1,0 +1,51 @@
+name: Bug Report
+description: Report a error.
+title: "[Bug]: "
+type: 'Bug'
+# projects:
+# assignees:
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibe den Fehler
+      description: Beschreibe das Problem und was du erwartet hast.
+      placeholder: Beschreibe den Fehler hier...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Schritte zur Reproduktion
+      description: Detaillierte Schritte, um das Sicherheitsproblem zu reproduzieren.
+      placeholder: "Bitte beschreiben Sie die Schritte hier..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+      description: Beschreibe, was du erwartet hast.
+      placeholder: Erwartetes Verhalten hier...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Aktuelles Verhalten
+      description: Beschreibe, was tatsächlich passiert ist.
+      placeholder: Aktuelles Verhalten hier...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Zusatzinformationen
+      description: Füge hier zusätzliche Informationen hinzu.
+      placeholder: Zusätzliche Informationen hier...
+    validations:
+      required: false
