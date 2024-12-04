@@ -1,5 +1,5 @@
 name: ADR - Architecture Decision Record
-description: Erstellen eines Architektur-Entscheidungsdokuments.
+description: Erstellen eines Architektur-Entscheidungsdokuments
 title: "[ADR]: "
 type: 'ADR'
 projects: Urban-Innovation/14
@@ -66,7 +66,3 @@ body:
       placeholder: "z.B. ADR-001: Verwendung der Microservices-Architektur"
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ```[tasklist] \n\n ###Tasks \n\n- [ ] Draft task \n\n ###Review \n\n- [ ] Review task \n\n ###Approval \n\n- [ ] Approve task \n\n```
