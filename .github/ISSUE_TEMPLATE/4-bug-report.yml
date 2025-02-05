@@ -32,20 +32,3 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: actual
-    attributes:
-      label: Aktuelles Verhalten
-      description: Beschreibe, was tatsächlich passiert ist.
-      placeholder: Aktuelles Verhalten hier...
-    validations:
-      required: true
-
-  - type: textarea
-    id: additional
-    attributes:
-      label: Zusatzinformationen
-      description: Füge hier zusätzliche Informationen hinzu.
-      placeholder: Zusätzliche Informationen hier...
-    validations:
-      required: false
