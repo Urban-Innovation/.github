@@ -14,7 +14,7 @@ body:
       placeholder: "Als..."
       value: "Als [Rolle], \n\nmöchte ich [Feature] \n\ndamit [Vorteil].\n\n"
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: acceptance-criteria
