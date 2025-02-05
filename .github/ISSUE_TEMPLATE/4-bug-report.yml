@@ -10,7 +10,7 @@ body:
     attributes:
       label: Beschreibe den Fehler
       description: Beschreibe das Problem und was du erwartet hast.
-      placeholder: Beschreibe den Fehler hier...
+      placeholder: "Bitte beschreibe den Fehler hier..."
     validations:
       required: true
 
@@ -18,8 +18,8 @@ body:
     id: steps_to_reproduce
     attributes:
       label: Schritte zur Reproduktion
-      description: Detaillierte Schritte, um das Sicherheitsproblem zu reproduzieren.
-      placeholder: "Bitte beschreiben Sie die Schritte hier..."
+      description: Detaillierte Schritte, um das Problem zu reproduzieren.
+      placeholder: "Bitte beschreibe die Schritte hier..."
     validations:
       required: false
 
@@ -28,7 +28,7 @@ body:
     attributes:
       label: Erwartetes Verhalten
       description: Beschreibe, was du erwartet hast.
-      placeholder: Erwartetes Verhalten hier...
+      placeholder: "Bitte beschreibe das zu erwartende Verhalten hier ..."
     validations:
       required: true
 
