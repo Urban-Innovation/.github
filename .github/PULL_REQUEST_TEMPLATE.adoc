@@ -1,19 +1,19 @@
-== Beschreibung
+## Beschreibung
 
 Beschreibe die Änderungen im Detail.
 Füge den Kontext und die Motivation hinter dieser Änderung hinzu und erkläre, warum sie notwendig ist.
 
-== Zugehörige(r) Issue(s)
+## Zugehörige(r) Issue(s)
 
 - #ISSUE_NUMMER
 
-== Checkliste
+## Checkliste
 
 * [ ] Ich habe meine Code-Änderungen gründlich getestet, um sicherzustellen, dass sie wie erwartet funktionieren, und habe zusätzliche Tests für neue Funktionen hinzugefügt.
 * [ ] Ich habe sichergestellt, dass der Code gut dokumentiert und leicht zu verstehen ist.
 * [ ] Der komplette GitHub Workflow ist erfolgreich durchgelaufen und stellt sicher, dass alle Tests und Linters erfolgreich sind.
 * [ ] Ich habe die Dokumentation nach Bedarf aktualisiert.
 
-== Deployment Hinweise (falls notwendig)
+## Deployment Hinweise (falls notwendig)
 
 Besondere Überlegungen zur Bereitstellung, z.B. Datenbankmigrationen, Umgebungsvariablen.
