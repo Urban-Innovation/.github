@@ -1,42 +1,19 @@
-# Pull Request Vorlage
+== Beschreibung
 
-## Beschreibung
+Beschreibe die Änderungen im Detail.
+Füge den Kontext und die Motivation hinter dieser Änderung hinzu und erkläre, warum sie notwendig ist.
 
-Beschreibe die Änderungen im Detail. Füge den Kontext und die Motivation hinter dieser Änderung hinzu und erkläre, warum sie notwendig ist.
+== Zugehörige(r) Issue(s)
 
-## Art der Änderung
+- #ISSUE_NUMMER
 
-* [ ] Fehlerbehebung (nicht-breaking Änderung, die ein Problem behebt)
-* [ ] Neues Feature (nicht-breaking Änderung, die Funktionalität hinzufügt)
-* [ ] Breaking Change (Änderung, die bestehende Funktionalität beeinflusst)
-* [ ] Dokumentationsupdate
-* [ ] Refactoring
+== Checkliste
 
-## Zugehörige(r) Issue(s)
-
-- Schließt #ISSUE_NUMMER
-- Verwandt mit #ISSUE_NUMMER
-
-## Checkliste
-
-### Codequalität
-
-* [ ] Der Code kompiliert und alle Tests werden bestanden.
-* [ ] Ich habe `lint` ausgeführt und alle Probleme behoben.
-* [ ] Ich habe den Code-Stil und die Richtlinien des Projekts befolgt.
+* [ ] Ich habe meine Code-Änderungen gründlich getestet, um sicherzustellen, dass sie wie erwartet funktionieren, und habe zusätzliche Tests für neue Funktionen hinzugefügt.
+* [ ] Ich habe sichergestellt, dass der Code gut dokumentiert und leicht zu verstehen ist.
+* [ ] Der komplette GitHub Workflow ist erfolgreich durchgelaufen und stellt sicher, dass alle Tests und Linters erfolgreich sind.
 * [ ] Ich habe die Dokumentation nach Bedarf aktualisiert.
 
-### Testen (TDD)
-
-* [ ] Ich habe Tests hinzugefügt, die meine Korrektur beweisen oder dass mein Feature funktioniert.
-* [ ] Ich habe Unit-Tests für neue Funktionen geschrieben.
-* [ ] Ich habe Randfälle in meinen Testfällen berücksichtigt.
-* [ ] Ich habe überprüft, dass die Testabdeckung den erforderlichen Schwellenwert erfüllt.
-
-
-## Bereitstellung
+== Deployment Hinweise (falls notwendig)
 
 Besondere Überlegungen zur Bereitstellung, z.B. Datenbankmigrationen, Umgebungsvariablen.
-
-* [ ] Bereitstellungs-Checkliste ist abgeschlossen.
-* [ ] Neue Umgebungsvariablen sind dokumentiert und kommuniziert.
