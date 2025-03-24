@@ -8,7 +8,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Beschreibe den Fehler
+      label: Beschreibung
       description: Beschreibe den Fehler und seine Auswirkungen.
       placeholder: "Bitte beschreibe den Fehler und die Auswirkungen hier..."
     validations:
@@ -17,7 +17,7 @@ body:
   - type: textarea
     id: steps_to_solve
     attributes:
-      label: Lösung des Problems
+      label: Lösungsschritte
       description: Detaillierte Schritte, um das Problem zu lösen.
       placeholder: "Bitte beschreibe die Schritte zur Lösung des Problems hier..."
     validations:
