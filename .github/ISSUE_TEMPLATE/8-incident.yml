@@ -1,0 +1,34 @@
+name: New Incident
+description: An unexpected issue affecting system security, availability, integrity, or confidentiality. Requires immediate investigation and resolution.
+title: "[Incident]: "
+type: 'Incident'
+# projects:
+# assignees:
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibe den Fehler
+      description: Beschreibe das Problem und was du erwartet hast.
+      placeholder: "Bitte beschreibe den Fehler hier..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_solve
+    attributes:
+      label: Lösung des Problems
+      description: Detaillierte Schritte, um das Problem zu lösen.
+      placeholder: "Bitte beschreibe die Schritte zur Lösung des Problems hier..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ursache des Problems
+      description: Wenn bekannt, beschreibe die Ursache des Problems.
+      placeholder: "Bitte beschreibe die Ursache des Problems hier ..."
+    validations:
+      required: false
+
