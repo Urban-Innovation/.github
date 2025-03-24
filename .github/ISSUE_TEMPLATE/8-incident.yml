@@ -9,8 +9,8 @@ body:
     id: description
     attributes:
       label: Beschreibe den Fehler
-      description: Beschreibe das Problem und was du erwartet hast.
-      placeholder: "Bitte beschreibe den Fehler hier..."
+      description: Beschreibe den Fehler und seine Auswirkungen.
+      placeholder: "Bitte beschreibe den Fehler und die Auswirkungen hier..."
     validations:
       required: true
 
