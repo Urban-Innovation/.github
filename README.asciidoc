@@ -15,6 +15,7 @@ Es enthält mehrere vordefinierte Issue-Templates, um die Meldung von Issues zu 
 - **link:.github/ISSUE_TEMPLATE/5-security_report.yml[Security Report]**: Für die Meldung von Sicherheitsproblemen.
 - **link:.github/ISSUE_TEMPLATE/6-quality.yml[Quality]**: Für die Meldung von Qualitätsproblemen.
 - **link:.github/ISSUE_TEMPLATE/7-adr.yml[ADR]**: Für die Dokumentation von Architekturentscheidungen.
+- **link:.github/ISSUE_TEMPLATE/8-incident.yml[Incident]**: Für die Meldung von Vorfällen.
 
 
 === Verzeichnisstruktur
@@ -31,6 +32,7 @@ Die Issue-Templates sind im Verzeichnis `ISSUE_TEMPLATE` organisiert:
     ├── 5-security_report.yml
     ├── 6-quality.yml
     ├── 7-adr.yml
+    |── 8-incident.yml
     └── config.yml
 ----
 
