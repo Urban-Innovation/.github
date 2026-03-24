@@ -1,7 +1,9 @@
 name: Security Bug Report
 description: A security issue that needs to be resolved quickly
 title: "[Security Issue]: "
-type: 'Security Issue'
+#type: 'Security Issue'
+labels:
+  - "Security Issue"
 
 body:
   - type: textarea
