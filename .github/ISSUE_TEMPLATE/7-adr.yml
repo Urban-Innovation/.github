@@ -3,7 +3,7 @@ description: Erstellen eines Architektur-Entscheidungsdokuments
 title: "[ADR]: "
 type: 'ADR'
 projects: Urban-Innovation/14
-assignees: ["SistigCh"]
+#assignees: ["SistigCh"]
 
 
 body:
