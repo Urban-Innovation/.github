@@ -1,9 +1,7 @@
 name: New Incident
 description: An unexpected issue affecting system security, availability, integrity, or confidentiality. Requires immediate investigation and resolution.
 title: "[Incident]: "
-#type: 'Incident'
-labels:
-  - Incident
+type: 'Incident'
 # projects:
 # assignees:
 body:
