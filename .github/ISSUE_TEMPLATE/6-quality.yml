@@ -1,9 +1,7 @@
 name: Quality Improvement
 description: Improve code maintainability, performance, tooling
 title: "[Quality]: "
-#type: 'Quality'
-labels:
-  - Quality
+type: 'Quality'
 # projects:
 # assignees:
 
