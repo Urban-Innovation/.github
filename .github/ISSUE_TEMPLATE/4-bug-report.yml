@@ -1,7 +1,9 @@
 name: Bug Report
 description: An unexpected problem or behavior in the software or documentation
 title: "[Bug]: "
-type: 'Bug'
+#type: 'Bug'
+labels:
+  - Bug
 # projects:
 # assignees:
 body:
