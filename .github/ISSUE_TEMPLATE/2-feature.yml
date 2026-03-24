@@ -1,11 +1,9 @@
 name: Feature
 description: New functionality
 title: "[Feature]: "
-# type: 'Feature'
+type: 'Feature'
 # projects:
 # assignees:
-labels:
-  - Feature
 
 body:
   - type: textarea
