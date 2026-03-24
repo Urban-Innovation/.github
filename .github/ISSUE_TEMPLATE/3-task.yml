@@ -1,7 +1,9 @@
 name: Task
 description: Task to be completed.
 title: "[Task]: "
-type: 'Task'
+# type: 'Task'
+labels:
+  - Task
 # projects:
 # assignees:
 
